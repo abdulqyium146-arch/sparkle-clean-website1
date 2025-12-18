@@ -87,6 +87,8 @@ const Index = () => {
         <script type="application/ld+json">
           {JSON.stringify(localBusinessSchema)}
         </script>
+<meta name="google-site-verification" content="yCEZDMBldOol-2CEPsUEQ_5B2n9dbUEfREwqI3xYldo" />
+
       </Helmet>
 
       <Navbar />
