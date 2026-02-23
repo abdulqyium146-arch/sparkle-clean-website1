@@ -22,16 +22,23 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="p-2 bg-primary rounded-lg group-hover:bg-accent transition-colors">
+          <Link
+            to="/"
+            className="flex items-center gap-2 group"
+            aria-label="KJS Supreme Pressure Washing LLC — Home"
+          >
+            <div
+              className="p-2 bg-primary rounded-lg group-hover:bg-accent transition-colors"
+              aria-hidden="true"
+            >
               <Droplets className="h-6 w-6 text-primary-foreground" />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-heading font-bold text-foreground">
-                SupreWashing
+              <span className="text-xl font-heading font-bold text-foreground leading-tight">
+                KJS Supreme
               </span>
               <span className="text-xs text-muted-foreground hidden sm:block">
-                Pressure Washing Experts
+                Pressure Washing LLC
               </span>
             </div>
           </Link>
@@ -56,11 +63,12 @@ const Navbar = () => {
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-3">
             <a
-              href="tel:+14075551234"
+              href="tel:+12138416924"
               className="flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
+              aria-label="Call KJS Supreme Pressure Washing at +1 213-841-6924"
             >
-              <Phone className="h-4 w-4" />
-              (407) 555-1234
+              <Phone className="h-4 w-4" aria-hidden="true" />
+              +1 213-841-6924
             </a>
             <Button asChild className="bg-primary hover:bg-accent">
               <Link to="/contact">Get Free Quote</Link>
@@ -101,10 +109,11 @@ const Navbar = () => {
               ))}
               <div className="mt-4 pt-4 border-t border-border flex flex-col gap-3">
                 <a
-                  href="tel:+1 213-841-6924"
+                  href="tel:+12138416924"
                   className="flex items-center justify-center gap-2 py-3 bg-secondary rounded-lg font-medium"
+                  aria-label="Call KJS Supreme Pressure Washing at +1 213-841-6924"
                 >
-                  <Phone className="h-5 w-5" />
+                  <Phone className="h-5 w-5" aria-hidden="true" />
                   +1 213-841-6924
                 </a>
                 <Button asChild className="w-full bg-primary hover:bg-accent">

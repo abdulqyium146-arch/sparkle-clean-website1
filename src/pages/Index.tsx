@@ -27,7 +27,7 @@ const localBusinessSchema = {
   "@type": "PressureWashingService",
   "name": "KJS Supreme Pressure Washing LLC",
   "url": "https://kjsupremepressurewashing.com",
-  "telephone": "+1-407-555-1234",
+  "telephone": "+12138416924",
   "priceRange": "$$",
   "areaServed": {
     "@type": "AdministrativeArea",
@@ -38,13 +38,28 @@ const localBusinessSchema = {
     "addressRegion": "FL",
     "addressCountry": "US"
   },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+12138416924",
+    "contactType": "customer service",
+    "areaServed": "US",
+    "availableLanguage": "English",
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "5",
     "reviewCount": "75"
   },
   "sameAs": [
-    "https://www.google.com/search?q=SupreWashing+Pressure+Washing"
+    "https://share.google/AxOD0H4lBjeUD5oWH"
   ]
 };
 /* ---------------------------------------- */

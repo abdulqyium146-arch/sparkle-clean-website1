@@ -29,7 +29,7 @@ const Footer = () => {
                 <Droplets className="h-6 w-6 text-primary-foreground" />
               </div>
               <span className="text-xl font-heading font-bold">
-                KJS Pressure Washing LLC
+                KJS Supreme Pressure Washing LLC
               </span>
             </a>
 
@@ -122,19 +122,23 @@ const Footer = () => {
             </h3>
             <ul className="space-y-4">
               <li className="flex gap-3">
-                <Phone className="h-5 w-5 text-primary" />
-                <a href="tel:+12138416924" className="text-background/70 text-sm">
+                <Phone className="h-5 w-5 text-primary" aria-hidden="true" />
+                <a
+                  href="tel:+12138416924"
+                  className="text-background/70 text-sm hover:text-primary transition-colors"
+                  aria-label="Call KJS Supreme Pressure Washing at +1 213-841-6924"
+                >
                   +1 213-841-6924
                 </a>
               </li>
 
               <li className="flex gap-3">
-                <Mail className="h-5 w-5 text-primary" />
+                <Mail className="h-5 w-5 text-primary" aria-hidden="true" />
                 <a
-                  href="mailto:info@suprewashing.com"
-                  className="text-background/70 text-sm"
+                  href="mailto:info@supremepressurewashingservices.com"
+                  className="text-background/70 text-sm hover:text-primary transition-colors"
                 >
-                  info@suprewashing.com
+                  info@supremepressurewashingservices.com
                 </a>
               </li>
 
@@ -157,7 +161,7 @@ const Footer = () => {
       {/* Bottom Bar */}
       <div className="border-t border-background/10">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between text-sm text-background/60">
-          <p>© {new Date().getFullYear()} KJS Pressure Washing LLC. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} KJS Supreme Pressure Washing LLC. All rights reserved.</p>
           <div className="flex gap-6">
             <a className="hover:text-primary">Privacy Policy</a>
             <a className="hover:text-primary">Terms of Service</a>
