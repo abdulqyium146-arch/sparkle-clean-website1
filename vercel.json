@@ -1,9 +1,21 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "supremewashing.net" }],
+      "destination": "https://kjsupremepressurewashing.com/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "supremewashing.net" }],
       "destination": "https://kjsupremepressurewashing.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.supremewashing.net" }],
+      "destination": "https://kjsupremepressurewashing.com/",
       "permanent": true
     },
     {
