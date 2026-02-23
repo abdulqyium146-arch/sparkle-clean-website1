@@ -12,5 +12,8 @@
       "destination": "https://kjsupremepressurewashing.com/:path*",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
