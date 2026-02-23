@@ -1,0 +1,9 @@
+# ─────────────────────────────────────────────────────────────────
+# Netlify _redirects  –  OLD DOMAIN redirect
+#
+# SETUP: In the Netlify dashboard for the OLD domain site, add this
+# file as the only content and deploy.  Every path on supremewashing.net
+# will be 301-redirected to kjsupremepressurewashing.com preserving
+# the full path and query string.
+# ─────────────────────────────────────────────────────────────────
+/*    https://kjsupremepressurewashing.com/:splat    301!
